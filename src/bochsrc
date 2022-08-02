@@ -11,7 +11,7 @@ vgaromimage: file=/usr/local/share/bochs/VGABIOS-elpin-2.40
 
 # what disk images will be used
 #floppya: 1_44=a.img, status=inserted
-ata0-master: type=disk, path="/Users/shrek/VirtualBox\ VMs/customOS/customOS.vhd", cylinders=306, heads=4, spt=17
+ata0-master: type=disk, path="/home/shrek/VirtualBox VMs/vhd/vhd.vhd", cylinders=306, heads=4, spt=17
 
 # choose the boot disk.
 boot: disk
@@ -22,7 +22,7 @@ boot: disk
 # disable the mouse
 mouse: enabled=0
 
-display_library: sdl2
+#display_library: sdl2
 
 # enable key mapping, using US layout as default.
 #keyboard_mapping: enabled=1, map=/usr/share/bochs/keymaps/x11-pc-us.map

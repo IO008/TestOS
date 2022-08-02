@@ -1,0 +1,7 @@
+VHD_PATH = "/home/shrek/VirtualBox VMs/vhd/vhd.vhd";
+BOOT_PATH = "/home/shrek/data/testcode/TestOS-main/src/asm/boot.bin";
+mbr_load_path = "/home/shrek/data/testcode/TestOS-main/src/asm/mbr_loader.bin";
+show_char_path = "/home/shrek/data/testcode/TestOS-main/src/asm/show_char.bin";
+
+ ./main 51200 "/home/shrek/data/testcode/TestOS-main/src/asm/show_char.bin" "/home/shrek/VirtualBox VMs/vhd/vhd.vhd"
+ ./main 0 "/home/shrek/data/testcode/TestOS-main/src/asm/mbr_loader.bin" "/home/shrek/VirtualBox VMs/vhd/vhd.vhd"
